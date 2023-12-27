@@ -1,0 +1,2345 @@
+[
+    {
+        "id": "ae8200bf1622fff6",
+        "type": "tab",
+        "label": "Fluxo 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8172ee98f66a57c6",
+        "type": "tab",
+        "label": "Tela de Login",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "be5368591c9fdcd4",
+        "type": "tab",
+        "label": "Gráficos",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "cf1139df4b8e2287",
+        "type": "tab",
+        "label": "Consulta CNPJ",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2350c2e0e633fe46",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "Times New Roman,Times,serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "test",
+                "default": "#4B7930",
+                "baseColor": "#6969e8",
+                "baseFont": "Century Gothic,CenturyGothic,AppleGothic,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#6969e8",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#87878c",
+                    "edited": true
+                },
+                "page-backgroundColor": {
+                    "value": "#cfb0b0",
+                    "edited": true
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#7a2db9",
+                    "edited": true
+                },
+                "group-textColor": {
+                    "value": "#0a0a0a",
+                    "edited": true
+                },
+                "group-borderColor": {
+                    "value": "#e647d9",
+                    "edited": true
+                },
+                "group-backgroundColor": {
+                    "value": "#e7b1db",
+                    "edited": true
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#6969e8",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#dcd3de",
+                    "edited": true
+                },
+                "base-font": {
+                    "value": "Century Gothic,CenturyGothic,AppleGothic,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "dark"
+            }
+        },
+        "site": {
+            "name": "Dashboard - Luana",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "true",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "c3394ca4d08a5059",
+        "type": "ui_tab",
+        "d": true,
+        "name": "Home",
+        "icon": "home",
+        "order": 2,
+        "disabled": true,
+        "hidden": true
+    },
+    {
+        "id": "69c5d4cd42078cba",
+        "type": "ui_group",
+        "name": "Entrada",
+        "tab": "c3394ca4d08a5059",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "075803c2232e2fbd",
+        "type": "ui_group",
+        "name": "Saída",
+        "tab": "c3394ca4d08a5059",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "78c6a8082686ba07",
+        "type": "ui_tab",
+        "d": true,
+        "name": "Álbum",
+        "icon": "camera",
+        "order": 3,
+        "disabled": true,
+        "hidden": true
+    },
+    {
+        "id": "1f1bf43dbe0bf675",
+        "type": "ui_group",
+        "name": "Imagens",
+        "tab": "78c6a8082686ba07",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "223fcce4863cde79",
+        "type": "ui_group",
+        "name": "Transição",
+        "tab": "78c6a8082686ba07",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "98e008969cb1e46e",
+        "type": "ui_group",
+        "name": "Transição",
+        "tab": "c3394ca4d08a5059",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2aa50b1fe5e6d74f",
+        "type": "ui_tab",
+        "name": "login",
+        "icon": "login",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ed4c2ff82bd5c6f7",
+        "type": "ui_group",
+        "name": "Login",
+        "tab": "2aa50b1fe5e6d74f",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "99bb12f93564cb21",
+        "type": "ui_tab",
+        "d": true,
+        "name": "Logs",
+        "icon": "done_all",
+        "order": 4,
+        "disabled": true,
+        "hidden": true
+    },
+    {
+        "id": "1b0bd4482ff7dd79",
+        "type": "ui_group",
+        "name": "Acesso Permitido",
+        "tab": "99bb12f93564cb21",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f611a11dd0475be5",
+        "type": "ui_tab",
+        "d": true,
+        "name": "Gráficos",
+        "icon": "track_changes",
+        "order": 5,
+        "disabled": true,
+        "hidden": true
+    },
+    {
+        "id": "9508a18e4787b3f1",
+        "type": "ui_group",
+        "name": "Temperatura",
+        "tab": "f611a11dd0475be5",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3e31803454f5c60e",
+        "type": "ui_group",
+        "name": "Iluminação",
+        "tab": "f611a11dd0475be5",
+        "order": 2,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8e4d9dd84e3d61bd",
+        "type": "ui_group",
+        "name": "Saturação",
+        "tab": "f611a11dd0475be5",
+        "order": 3,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4fdaec7c1c246299",
+        "type": "ui_spacer",
+        "z": "be5368591c9fdcd4",
+        "name": "spacer",
+        "group": "9508a18e4787b3f1",
+        "order": 1,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "5f0ff801657b2e77",
+        "type": "ui_spacer",
+        "z": "be5368591c9fdcd4",
+        "name": "spacer",
+        "group": "9508a18e4787b3f1",
+        "order": 3,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "b6381daa79b63dee",
+        "type": "ui_spacer",
+        "z": "be5368591c9fdcd4",
+        "name": "spacer",
+        "group": "9508a18e4787b3f1",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "e6668a68888888c8",
+        "type": "ui_spacer",
+        "z": "be5368591c9fdcd4",
+        "name": "spacer",
+        "group": "9508a18e4787b3f1",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "2f200d2fe7510b11",
+        "type": "ui_spacer",
+        "z": "be5368591c9fdcd4",
+        "name": "spacer",
+        "group": "9508a18e4787b3f1",
+        "order": 7,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "8fa685980a540833",
+        "type": "ui_spacer",
+        "z": "be5368591c9fdcd4",
+        "name": "spacer",
+        "group": "9508a18e4787b3f1",
+        "order": 9,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "7aba3487675223ce",
+        "type": "ui_spacer",
+        "z": "be5368591c9fdcd4",
+        "name": "spacer",
+        "group": "3e31803454f5c60e",
+        "order": 1,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "588997280102b87c",
+        "type": "ui_spacer",
+        "z": "be5368591c9fdcd4",
+        "name": "spacer",
+        "group": "3e31803454f5c60e",
+        "order": 3,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "c5bc2bdf3bdf0ea4",
+        "type": "ui_spacer",
+        "z": "be5368591c9fdcd4",
+        "name": "spacer",
+        "group": "3e31803454f5c60e",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "f6f33c7777be4a77",
+        "type": "ui_spacer",
+        "z": "be5368591c9fdcd4",
+        "name": "spacer",
+        "group": "3e31803454f5c60e",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "c03adb7fc8b49be5",
+        "type": "ui_spacer",
+        "z": "be5368591c9fdcd4",
+        "name": "spacer",
+        "group": "3e31803454f5c60e",
+        "order": 7,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "c8ce24fe5ffc2fa8",
+        "type": "ui_spacer",
+        "z": "be5368591c9fdcd4",
+        "name": "spacer",
+        "group": "3e31803454f5c60e",
+        "order": 9,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "1cb1804e963ec332",
+        "type": "ui_spacer",
+        "z": "be5368591c9fdcd4",
+        "name": "spacer",
+        "group": "8e4d9dd84e3d61bd",
+        "order": 1,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "9ad073dbb9981702",
+        "type": "ui_spacer",
+        "z": "be5368591c9fdcd4",
+        "name": "spacer",
+        "group": "8e4d9dd84e3d61bd",
+        "order": 3,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "5e25910b356f8cb4",
+        "type": "ui_spacer",
+        "z": "be5368591c9fdcd4",
+        "name": "spacer",
+        "group": "8e4d9dd84e3d61bd",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "bdb126809cbbac76",
+        "type": "ui_spacer",
+        "z": "be5368591c9fdcd4",
+        "name": "spacer",
+        "group": "8e4d9dd84e3d61bd",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "b0f4fec2341f3be7",
+        "type": "ui_spacer",
+        "z": "be5368591c9fdcd4",
+        "name": "spacer",
+        "group": "8e4d9dd84e3d61bd",
+        "order": 7,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "864b77e988436b48",
+        "type": "ui_spacer",
+        "z": "be5368591c9fdcd4",
+        "name": "spacer",
+        "group": "8e4d9dd84e3d61bd",
+        "order": 9,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "9484484ca8e66656",
+        "type": "ui_group",
+        "name": "Gráfico Geral",
+        "tab": "f611a11dd0475be5",
+        "order": 4,
+        "disp": true,
+        "width": "21",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "04287026b5903368",
+        "type": "ui_tab",
+        "name": "Consulta CNPJ",
+        "icon": "search",
+        "order": 6,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "de2d3153b3bf6f61",
+        "type": "ui_group",
+        "name": "Entrada de CNPJ",
+        "tab": "04287026b5903368",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "cdd52498d9030b85",
+        "type": "ui_group",
+        "name": "Dados CNPJ",
+        "tab": "04287026b5903368",
+        "order": 2,
+        "disp": true,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e62e54506576a1aa",
+        "type": "ui_spacer",
+        "z": "cf1139df4b8e2287",
+        "name": "spacer",
+        "group": "cdd52498d9030b85",
+        "order": 4,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "188a11cd9d034f54",
+        "type": "ui_spacer",
+        "z": "cf1139df4b8e2287",
+        "name": "spacer",
+        "group": "cdd52498d9030b85",
+        "order": 5,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "c11cdb27843028b8",
+        "type": "ui_spacer",
+        "z": "cf1139df4b8e2287",
+        "name": "spacer",
+        "group": "cdd52498d9030b85",
+        "order": 6,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "36862de4d5410557",
+        "type": "ui_form",
+        "z": "ae8200bf1622fff6",
+        "name": "",
+        "label": "",
+        "group": "69c5d4cd42078cba",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "nome",
+                "value": "name",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "idade",
+                "value": "age",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "name": "",
+            "age": ""
+        },
+        "payload": "",
+        "submit": "Enviar",
+        "cancel": "Sair",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 150,
+        "y": 660,
+        "wires": [
+            [
+                "6fc085535127d688",
+                "5b8e392f0f32de3f",
+                "2cf773c465775dce"
+            ]
+        ]
+    },
+    {
+        "id": "5b8e392f0f32de3f",
+        "type": "ui_text",
+        "z": "ae8200bf1622fff6",
+        "group": "075803c2232e2fbd",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Nome",
+        "format": "{{msg.payload.name}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 410,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "6fc085535127d688",
+        "type": "debug",
+        "z": "ae8200bf1622fff6",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 160,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "59dfec200c3face9",
+        "type": "ui_gauge",
+        "z": "ae8200bf1622fff6",
+        "name": "",
+        "group": "075803c2232e2fbd",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "donut",
+        "title": "idade",
+        "label": "Idade Aproximada",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "85",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 410,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "2cf773c465775dce",
+        "type": "change",
+        "z": "ae8200bf1622fff6",
+        "name": "Conversão",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload.age",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 230,
+        "y": 740,
+        "wires": [
+            [
+                "59dfec200c3face9"
+            ]
+        ]
+    },
+    {
+        "id": "ab24120183a3e8a9",
+        "type": "ui_button",
+        "z": "ae8200bf1622fff6",
+        "name": "",
+        "group": "69c5d4cd42078cba",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Mensagem teste",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Essa é uma mensagem de teste",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 250,
+        "y": 840,
+        "wires": [
+            [
+                "0445baabeb0e668a",
+                "223f9589046939bc"
+            ]
+        ]
+    },
+    {
+        "id": "0445baabeb0e668a",
+        "type": "ui_toast",
+        "z": "ae8200bf1622fff6",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 510,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "223f9589046939bc",
+        "type": "ui_text",
+        "z": "ae8200bf1622fff6",
+        "group": "1f1bf43dbe0bf675",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Mensagem de teste",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 560,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "d2595e08da1fab03",
+        "type": "ui_button",
+        "z": "ae8200bf1622fff6",
+        "name": "",
+        "group": "98e008969cb1e46e",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Tela 2",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Álbum",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 980,
+        "wires": [
+            [
+                "d2a2106ba717f90d"
+            ]
+        ]
+    },
+    {
+        "id": "d2a2106ba717f90d",
+        "type": "ui_ui_control",
+        "z": "ae8200bf1622fff6",
+        "name": "",
+        "events": "all",
+        "x": 660,
+        "y": 1000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "24271438f4f661e7",
+        "type": "ui_button",
+        "z": "ae8200bf1622fff6",
+        "name": "",
+        "group": "223fcce4863cde79",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Voltar",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Home",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 190,
+        "y": 1040,
+        "wires": [
+            [
+                "d2a2106ba717f90d"
+            ]
+        ]
+    },
+    {
+        "id": "ee499b3c4f088bad",
+        "type": "ui_ui_control",
+        "z": "ae8200bf1622fff6",
+        "name": "",
+        "events": "all",
+        "x": 80,
+        "y": 1180,
+        "wires": [
+            [
+                "972bd4fd33736f16"
+            ]
+        ]
+    },
+    {
+        "id": "972bd4fd33736f16",
+        "type": "switch",
+        "z": "ae8200bf1622fff6",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "connect",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 290,
+        "y": 1120,
+        "wires": [
+            [
+                "97e52e993e3258fb",
+                "1d4e97b101a5f2bb"
+            ]
+        ]
+    },
+    {
+        "id": "97e52e993e3258fb",
+        "type": "change",
+        "z": "ae8200bf1622fff6",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Home",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 500,
+        "y": 1100,
+        "wires": [
+            [
+                "d2a2106ba717f90d"
+            ]
+        ]
+    },
+    {
+        "id": "1d4e97b101a5f2bb",
+        "type": "template",
+        "z": "ae8200bf1622fff6",
+        "name": "Esconder",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "json",
+        "syntax": "mustache",
+        "template": "{\"tabs\": \n{\"hide\": [\"Home\", \"Álbum\", \"Logs\", \"Consulta CNPJ\" ]\n}}",
+        "output": "json",
+        "x": 780,
+        "y": 1140,
+        "wires": [
+            [
+                "d2a2106ba717f90d"
+            ]
+        ]
+    },
+    {
+        "id": "e009839d2582b698",
+        "type": "ui_form",
+        "z": "8172ee98f66a57c6",
+        "name": "",
+        "label": "",
+        "group": "ed4c2ff82bd5c6f7",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Usuário",
+                "value": "user",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Senha",
+                "value": "password",
+                "type": "password",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "user": "",
+            "password": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 270,
+        "y": 480,
+        "wires": [
+            [
+                "8edbd40a15c6b43e"
+            ]
+        ]
+    },
+    {
+        "id": "8edbd40a15c6b43e",
+        "type": "switch",
+        "z": "8172ee98f66a57c6",
+        "name": "",
+        "property": "payload.user",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Luana",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "Luana",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 410,
+        "y": 440,
+        "wires": [
+            [
+                "e3721a662333f1a9"
+            ],
+            [
+                "440dea2e98986437"
+            ]
+        ]
+    },
+    {
+        "id": "e3721a662333f1a9",
+        "type": "switch",
+        "z": "8172ee98f66a57c6",
+        "name": "",
+        "property": "payload.password",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1234",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "1234",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 610,
+        "y": 440,
+        "wires": [
+            [
+                "24dbe654f90e7a00",
+                "dec46e01d4260486",
+                "98f1d359af249281"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "440dea2e98986437",
+        "type": "change",
+        "z": "8172ee98f66a57c6",
+        "name": "Notificação",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Usuário inválido",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 580,
+        "wires": [
+            [
+                "ac2c62ead148a8a7"
+            ]
+        ]
+    },
+    {
+        "id": "24dbe654f90e7a00",
+        "type": "change",
+        "z": "8172ee98f66a57c6",
+        "name": "Notificação",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Senha inválida",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 480,
+        "wires": [
+            [
+                "ac2c62ead148a8a7"
+            ]
+        ]
+    },
+    {
+        "id": "ac2c62ead148a8a7",
+        "type": "ui_toast",
+        "z": "8172ee98f66a57c6",
+        "position": "top left",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 1410,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "dec46e01d4260486",
+        "type": "change",
+        "z": "8172ee98f66a57c6",
+        "name": "liberação",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Consulta CNPJ",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 820,
+        "y": 400,
+        "wires": [
+            [
+                "413c3ec1c1bcc931",
+                "4858e736168263b5",
+                "b0cf7f5226ad8f66"
+            ]
+        ]
+    },
+    {
+        "id": "413c3ec1c1bcc931",
+        "type": "ui_ui_control",
+        "z": "8172ee98f66a57c6",
+        "name": "",
+        "events": "all",
+        "x": 1360,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4858e736168263b5",
+        "type": "change",
+        "z": "8172ee98f66a57c6",
+        "name": "Notificação",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Acesso permitido",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1130,
+        "y": 200,
+        "wires": [
+            [
+                "ac2c62ead148a8a7"
+            ]
+        ]
+    },
+    {
+        "id": "b0cf7f5226ad8f66",
+        "type": "template",
+        "z": "8172ee98f66a57c6",
+        "name": "Mostrar",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "json",
+        "syntax": "mustache",
+        "template": "{\"tabs\": \n{\"show\": [\"Home\", \"Álbum\", \"Logs\",\"Consulta CNPJ\" ]\n}}",
+        "output": "json",
+        "x": 980,
+        "y": 440,
+        "wires": [
+            [
+                "413c3ec1c1bcc931",
+                "56f280ed5d02d71c"
+            ]
+        ]
+    },
+    {
+        "id": "56f280ed5d02d71c",
+        "type": "template",
+        "z": "8172ee98f66a57c6",
+        "name": "Esconder",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "json",
+        "syntax": "mustache",
+        "template": "{\"tabs\": \n{\"hide\": \"login\"\n}}",
+        "output": "json",
+        "x": 1180,
+        "y": 440,
+        "wires": [
+            [
+                "413c3ec1c1bcc931"
+            ]
+        ]
+    },
+    {
+        "id": "98f1d359af249281",
+        "type": "change",
+        "z": "8172ee98f66a57c6",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.time",
+                "pt": "msg",
+                "to": "",
+                "tot": "date"
+            },
+            {
+                "t": "delete",
+                "p": "payload.password",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 620,
+        "wires": [
+            [
+                "cb96d5c883fa3686"
+            ]
+        ]
+    },
+    {
+        "id": "83f7f7c0379de593",
+        "type": "debug",
+        "z": "8172ee98f66a57c6",
+        "d": true,
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1560,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "cb96d5c883fa3686",
+        "type": "moment",
+        "z": "8172ee98f66a57c6",
+        "name": "",
+        "topic": "",
+        "input": "payload.time",
+        "inputType": "msg",
+        "inTz": "America/Sao_Paulo",
+        "adjAmount": 0,
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "yyyy-MM-DD HH:MM",
+        "locale": "en-US",
+        "output": "payload.time",
+        "outputType": "msg",
+        "outTz": "America/Sao_Paulo",
+        "x": 1000,
+        "y": 640,
+        "wires": [
+            [
+                "fda1325360536636"
+            ]
+        ]
+    },
+    {
+        "id": "fda1325360536636",
+        "type": "csv",
+        "z": "8172ee98f66a57c6",
+        "name": "",
+        "sep": ",",
+        "hdrin": false,
+        "hdrout": "once",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": false,
+        "include_empty_strings": true,
+        "include_null_values": true,
+        "x": 1210,
+        "y": 620,
+        "wires": [
+            [
+                "2e3e86909bf01cbd"
+            ]
+        ]
+    },
+    {
+        "id": "2e3e86909bf01cbd",
+        "type": "file",
+        "z": "8172ee98f66a57c6",
+        "name": "",
+        "filename": "aula.csv",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 1380,
+        "y": 660,
+        "wires": [
+            [
+                "83f7f7c0379de593",
+                "f599b1c9d6dd75bd"
+            ]
+        ]
+    },
+    {
+        "id": "f022f52ff5eeaff6",
+        "type": "file",
+        "z": "8172ee98f66a57c6",
+        "name": "",
+        "filename": "aula.csv",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": "delete",
+        "encoding": "none",
+        "x": 1300,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9ff68aab58725862",
+        "type": "inject",
+        "z": "8172ee98f66a57c6",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1080,
+        "y": 860,
+        "wires": [
+            [
+                "f022f52ff5eeaff6"
+            ]
+        ]
+    },
+    {
+        "id": "3f34f9bf8739b70c",
+        "type": "file in",
+        "z": "8172ee98f66a57c6",
+        "name": "",
+        "filename": "aula.csv",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 1280,
+        "y": 780,
+        "wires": [
+            [
+                "40b8037c5df9ad20"
+            ]
+        ]
+    },
+    {
+        "id": "cad72d1d231db66a",
+        "type": "inject",
+        "z": "8172ee98f66a57c6",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1060,
+        "y": 780,
+        "wires": [
+            [
+                "3f34f9bf8739b70c"
+            ]
+        ]
+    },
+    {
+        "id": "40b8037c5df9ad20",
+        "type": "csv to json ext",
+        "z": "8172ee98f66a57c6",
+        "name": "",
+        "version": "0.1",
+        "source": "filename",
+        "delimiter": ",",
+        "quote": "\"",
+        "escape": "\"",
+        "ignoreEmpty": false,
+        "checkType": false,
+        "trim": false,
+        "noheader": false,
+        "includeColumns": "",
+        "headers": "",
+        "debug": false,
+        "x": 1470,
+        "y": 780,
+        "wires": [
+            [
+                "d4ce5683263f3777",
+                "a81a568d08d86d6b"
+            ]
+        ]
+    },
+    {
+        "id": "868337bae3fe3f9f",
+        "type": "debug",
+        "z": "8172ee98f66a57c6",
+        "d": true,
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2080,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "d4ce5683263f3777",
+        "type": "ui_table",
+        "z": "8172ee98f66a57c6",
+        "group": "1b0bd4482ff7dd79",
+        "name": "",
+        "order": 1,
+        "width": "6",
+        "height": "6",
+        "columns": [
+            {
+                "field": "user",
+                "title": "Usuário",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "time",
+                "title": "Horário",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 1850,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "f599b1c9d6dd75bd",
+        "type": "change",
+        "z": "8172ee98f66a57c6",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1360,
+        "y": 720,
+        "wires": [
+            [
+                "3f34f9bf8739b70c"
+            ]
+        ]
+    },
+    {
+        "id": "a81a568d08d86d6b",
+        "type": "split",
+        "z": "8172ee98f66a57c6",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 1670,
+        "y": 820,
+        "wires": [
+            [
+                "c9be13c691a4d2dd"
+            ]
+        ]
+    },
+    {
+        "id": "c9be13c691a4d2dd",
+        "type": "switch",
+        "z": "8172ee98f66a57c6",
+        "name": "",
+        "property": "payload.user",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "user",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "user",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 1780,
+        "y": 780,
+        "wires": [
+            [],
+            [
+                "1a2bdd2f5c20e7d1"
+            ]
+        ]
+    },
+    {
+        "id": "1a2bdd2f5c20e7d1",
+        "type": "join",
+        "z": "8172ee98f66a57c6",
+        "name": "",
+        "mode": "auto",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": "false",
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "x": 1930,
+        "y": 780,
+        "wires": [
+            [
+                "868337bae3fe3f9f"
+            ]
+        ]
+    },
+    {
+        "id": "196b58e1b51482ed",
+        "type": "ui_gauge",
+        "z": "be5368591c9fdcd4",
+        "name": "",
+        "group": "9508a18e4787b3f1",
+        "order": 2,
+        "width": 3,
+        "height": 2,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "45",
+        "colors": [
+            "#1f1dbf",
+            "#18af0d",
+            "#eb0000"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 450,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "4abd4a5051c8459f",
+        "type": "ui_chart",
+        "z": "be5368591c9fdcd4",
+        "name": "",
+        "group": "9508a18e4787b3f1",
+        "order": 6,
+        "width": 7,
+        "height": 4,
+        "label": "Temperatura Ambiente",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "45",
+        "removeOlder": 1,
+        "removeOlderPoints": "100",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#eb0a0a",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 500,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ad51a61aa387dc78",
+        "type": "ui_slider",
+        "z": "be5368591c9fdcd4",
+        "name": "",
+        "label": "slider",
+        "tooltip": "",
+        "group": "9508a18e4787b3f1",
+        "order": 8,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "45",
+        "step": 1,
+        "className": "",
+        "x": 250,
+        "y": 140,
+        "wires": [
+            [
+                "196b58e1b51482ed",
+                "4abd4a5051c8459f",
+                "b62d733b98ab761c"
+            ]
+        ]
+    },
+    {
+        "id": "9ababe2c52590f9f",
+        "type": "ui_gauge",
+        "z": "be5368591c9fdcd4",
+        "name": "",
+        "group": "3e31803454f5c60e",
+        "order": 2,
+        "width": 3,
+        "height": 2,
+        "gtype": "compass",
+        "title": "Iluminação",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 490,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "12cfe248ad86de66",
+        "type": "ui_chart",
+        "z": "be5368591c9fdcd4",
+        "name": "",
+        "group": "3e31803454f5c60e",
+        "order": 6,
+        "width": 7,
+        "height": 4,
+        "label": "Iluminação Ambiente",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "1000",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#dcdf20",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 520,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4cb243a15526d452",
+        "type": "ui_slider",
+        "z": "be5368591c9fdcd4",
+        "name": "",
+        "label": "slider",
+        "tooltip": "",
+        "group": "3e31803454f5c60e",
+        "order": 8,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 270,
+        "y": 260,
+        "wires": [
+            [
+                "9ababe2c52590f9f",
+                "12cfe248ad86de66",
+                "b3e53730beb44fa7"
+            ]
+        ]
+    },
+    {
+        "id": "01ef640565d9b361",
+        "type": "ui_gauge",
+        "z": "be5368591c9fdcd4",
+        "name": "",
+        "group": "8e4d9dd84e3d61bd",
+        "order": 2,
+        "width": 3,
+        "height": 2,
+        "gtype": "donut",
+        "title": "Saturação",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#d20f0f",
+            "#e6e600",
+            "#0fc002"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 490,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "47c2c4bb8e102090",
+        "type": "ui_chart",
+        "z": "be5368591c9fdcd4",
+        "name": "",
+        "group": "8e4d9dd84e3d61bd",
+        "order": 6,
+        "width": 7,
+        "height": 4,
+        "label": "Saturação ",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "1000",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#0f5299",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 490,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "27e4cb6510264515",
+        "type": "ui_slider",
+        "z": "be5368591c9fdcd4",
+        "name": "",
+        "label": "slider",
+        "tooltip": "",
+        "group": "8e4d9dd84e3d61bd",
+        "order": 8,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 270,
+        "y": 380,
+        "wires": [
+            [
+                "01ef640565d9b361",
+                "47c2c4bb8e102090",
+                "3a033fff640ec3cb"
+            ]
+        ]
+    },
+    {
+        "id": "79562cad7cbe919f",
+        "type": "ui_chart",
+        "z": "be5368591c9fdcd4",
+        "name": "",
+        "group": "9484484ca8e66656",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#ba0808",
+            "#f4cf15",
+            "#1721b0",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 970,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b62d733b98ab761c",
+        "type": "change",
+        "z": "be5368591c9fdcd4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Temperatura",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 770,
+        "y": 180,
+        "wires": [
+            [
+                "79562cad7cbe919f"
+            ]
+        ]
+    },
+    {
+        "id": "b3e53730beb44fa7",
+        "type": "change",
+        "z": "be5368591c9fdcd4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Iluminação",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 280,
+        "wires": [
+            [
+                "79562cad7cbe919f"
+            ]
+        ]
+    },
+    {
+        "id": "3a033fff640ec3cb",
+        "type": "change",
+        "z": "be5368591c9fdcd4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Saturação",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 790,
+        "y": 380,
+        "wires": [
+            [
+                "79562cad7cbe919f"
+            ]
+        ]
+    },
+    {
+        "id": "444515a1491c0e03",
+        "type": "inject",
+        "z": "be5368591c9fdcd4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload[0]",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 850,
+        "y": 520,
+        "wires": [
+            [
+                "79562cad7cbe919f"
+            ]
+        ]
+    },
+    {
+        "id": "0aa24579ae4abe10",
+        "type": "inject",
+        "z": "cf1139df4b8e2287",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "https://publica.cnpj.ws/cnpj/11319526000155",
+        "payloadType": "str",
+        "x": 210,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1d28db793f38c5a9",
+        "type": "http request",
+        "z": "cf1139df4b8e2287",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 910,
+        "y": 280,
+        "wires": [
+            [
+                "9b26742986f7868d",
+                "f28e6aebd49d2a8c",
+                "d59be171d61c815d",
+                "5844f3de025c5053"
+            ]
+        ]
+    },
+    {
+        "id": "402a34334ab9b85c",
+        "type": "change",
+        "z": "cf1139df4b8e2287",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "url",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 670,
+        "y": 280,
+        "wires": [
+            [
+                "1d28db793f38c5a9"
+            ]
+        ]
+    },
+    {
+        "id": "9b26742986f7868d",
+        "type": "debug",
+        "z": "cf1139df4b8e2287",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "e2fffb60f76f22bd",
+        "type": "ui_form",
+        "z": "cf1139df4b8e2287",
+        "name": "",
+        "label": "",
+        "group": "de2d3153b3bf6f61",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Digite seu CNPJ",
+                "value": "cnpj",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "cnpj": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 50,
+        "y": 280,
+        "wires": [
+            [
+                "f7b7ba6732b75bd8"
+            ]
+        ]
+    },
+    {
+        "id": "f7b7ba6732b75bd8",
+        "type": "change",
+        "z": "cf1139df4b8e2287",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload.cnpj",
+                "pt": "msg",
+                "from": ".",
+                "fromt": "str",
+                "to": "",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload.cnpj",
+                "pt": "msg",
+                "from": "/",
+                "fromt": "str",
+                "to": "",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload.cnpj",
+                "pt": "msg",
+                "from": "-",
+                "fromt": "str",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 260,
+        "y": 280,
+        "wires": [
+            [
+                "eddade9dd4e3c243"
+            ]
+        ]
+    },
+    {
+        "id": "eddade9dd4e3c243",
+        "type": "template",
+        "z": "cf1139df4b8e2287",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "https://publica.cnpj.ws/cnpj/{{payload.cnpj}}",
+        "output": "str",
+        "x": 480,
+        "y": 280,
+        "wires": [
+            [
+                "402a34334ab9b85c"
+            ]
+        ]
+    },
+    {
+        "id": "f28e6aebd49d2a8c",
+        "type": "ui_text",
+        "z": "cf1139df4b8e2287",
+        "group": "cdd52498d9030b85",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Razão Social",
+        "format": "{{msg.payload.razao_social}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1530,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "8a70729c40c7d909",
+        "type": "ui_gauge",
+        "z": "cf1139df4b8e2287",
+        "name": "",
+        "group": "cdd52498d9030b85",
+        "order": 2,
+        "width": 4,
+        "height": 4,
+        "gtype": "compass",
+        "title": "Porte",
+        "label": "ID:",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "5",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1550,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "d59be171d61c815d",
+        "type": "change",
+        "z": "cf1139df4b8e2287",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload.porte.id",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1300,
+        "y": 140,
+        "wires": [
+            [
+                "8a70729c40c7d909"
+            ]
+        ]
+    },
+    {
+        "id": "5844f3de025c5053",
+        "type": "ui_text",
+        "z": "cf1139df4b8e2287",
+        "group": "cdd52498d9030b85",
+        "order": 3,
+        "width": 8,
+        "height": 1,
+        "name": "",
+        "label": "Descrição de Porte",
+        "format": "{{msg.payload.porte.descricao}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1590,
+        "y": 180,
+        "wires": []
+    }
+]
